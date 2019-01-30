@@ -1,5 +1,6 @@
+//Variables!!
 let balance = 0;
-let name = `John Doe`;
+let name = `George Brown`;
 
 
 // Greet the user by name
@@ -18,20 +19,20 @@ let name = `John Doe`;
       // Change the content of the element
 
 
-var completeTransaction = function() {
+var completeTransaction = function () {
 
   // Store the value from the 'amount' input in a variable (let)
         // Make sure it's a number, not a string!!!  parseInt()
-  let _amount = parseInt(document.getElementById('amount').value);
+  let _amount = parseInt (document.getElementById('amount').value);
 
   // 1. Update the balance using the transaction value
   balance += 50;
 
   // 2. Add a record to the history showing the amount deposited
-  document.getElementById('history').innerHTML += `<li>You deposited $50.</li>`;
+  document.getElementById ('history').innerHTML += `<li>You deposited $50.</li>`;
 
   // Update the balance in the document
-  document.getElementById('balance').innerHTML = balance;
+  document.getElementById ('balance').innerHTML = balance;
 
   // 3. IF the balance is less than 0, make the balance red, else make it black
         // A) change the style.color of the balance
