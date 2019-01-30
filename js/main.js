@@ -29,7 +29,7 @@ var completeTransaction = function () {
   balance += _amount;
 
   // 2. Add a record to the history showing the amount deposited
-  document.getElementById ('history').innerHTML += '<li>'You deposited '$' + _amount + '</li>;'
+  document.getElementById ('history').innerHTML += '<li> You deposited $' + _amount + '</li>';
 
   // Update the balance in the document
   document.getElementById ('balance').innerHTML = balance;
